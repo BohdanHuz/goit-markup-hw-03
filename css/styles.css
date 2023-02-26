@@ -1,0 +1,218 @@
+:root {
+  --primari-text-color: #434455;
+  --secondary-text-color: #404bbf;
+  --primari-background-color: #ffffff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  background: var(--primari-background-color);
+}
+/* --------------------------------------------Header--------------------------------------------*/
+
+/* Logo WebStudio */
+.logo-link {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-studio {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+/* Menu Nav */
+.link {
+  list-style: none;
+}
+.header-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+.header-link:hover,
+.header-link:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+.header-list .header-link.curent {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+/* Contacts info */
+.header-mail {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primari-text-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+.header-tel {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primari-text-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+/* --------------------------------------------Content section--------------------------------------------*/
+/* Hero section */
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
+}
+.hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
+}
+
+/* Section 1 Preference */
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.section {
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.preference-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.preference-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primari-text-color);
+}
+/* Section 2 What are we doing */
+
+/* Section 3 Our Team */
+.section.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  background: var(--primari-background-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primari-text-color);
+}
+/* --------------------------------------------Footer--------------------------------------------  */
+.footer {
+  background: #2e2f42;
+}
+.logo-studio.footer {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-description {
+  color: #e7e9fc;
+}
+/* Portfolio */
+.content-portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  cursor: pointer;
+}
+.content-portfolio-button:hover,
+.content-portfolio-button:focus {
+  background: #404bbf;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+
+.examples-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.examples-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primari-text-color);
+}
