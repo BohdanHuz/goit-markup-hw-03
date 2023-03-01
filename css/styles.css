@@ -25,26 +25,18 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 76px;
+  display: inline-block;
 
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo-studio {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 /* Menu Nav */
@@ -155,6 +147,7 @@ body {
   color: #ffffff;
 }
 .hero-button {
+  border: none;
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
@@ -298,28 +291,18 @@ body {
   background: #2e2f42;
 }
 .logo-footer {
+  display: inline-block;
   margin-bottom: 16px;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo-studio-footer {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
 .footer-description {
@@ -327,7 +310,7 @@ body {
   margin-bottom: 0;
   color: #e7e9fc;
 
-  width: 25%;
+  max-width: 264px;
 }
 /* Portfolio */
 .portfolio-section {
@@ -370,23 +353,23 @@ body {
 
   color: #ffffff;
 }
-.portfolio-list-item {
-  margin-right: 24px;
-  margin-bottom: 48px;
-}
-.portfolio-list-item:nth-child(3n) {
-  margin-right: 0;
-}
+
 .portfolio-text {
   padding-left: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
-  border: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 .porfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -48px;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
 }
 .examples-title {
   margin-top: 0;
