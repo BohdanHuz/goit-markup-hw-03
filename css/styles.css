@@ -210,7 +210,7 @@ body {
   display: flex;
 }
 .preference-item {
-  width: calс((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
   margin-right: 24px;
 }
 .preference-item:nth-child(4n) {
